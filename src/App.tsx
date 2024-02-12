@@ -9,9 +9,9 @@ export const App = () => {
     lg: `"nav nav" "aside main"`
   }} >
     <GridItem area={"nav"} ><Navbar/></GridItem>
-    <GridItem area={"main"} bg={"teal"}>Main</GridItem>
+    <GridItem area={"main"} >Main</GridItem>
     <Show above="lg">
-      <GridItem area={"aside"} bg="indigo">Aside</GridItem>
+      <GridItem area={"aside"} >Aside</GridItem>
     </Show>
   </Grid>
     </div>
