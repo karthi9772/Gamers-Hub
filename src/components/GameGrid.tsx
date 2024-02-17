@@ -10,8 +10,8 @@ export const GameGrid = () => {
   return (
     <div>
       <SimpleGrid
-        columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
-        spacing={10}
+        columns={{ sm: 1, md: 2, lg: 2, xl: 4 }}
+        spacing={"50px"}
         padding={10}
       >
         {isLoading &&
