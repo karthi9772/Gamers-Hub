@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 import apiClient from "../Services/api-client";
 // import{}
 
-interface platform{
+export interface platform{
   id: number,
   name:string,
   slug:string,
